@@ -2,25 +2,9 @@ package array;
 
 public class LinearSearch {
 
-    public static boolean isNotEmpty(int[] arr) {
-        if (arr == null || arr.length == 0) {
-            System.out.println("Array is empty or null.");
-            return false;
-        }
-        return true;
-    }
-
-    public static boolean isNotEmpty(int[][] arr) {
-        if (arr == null || arr.length == 0) {
-            System.out.println("Array is empty or null.");
-            return false;
-        }
-        return true;
-    }
-
     public static boolean linearSearchForArray(int[] arr, int target) {
 
-        if (isNotEmpty(arr)){
+        if (arr != null){
             for (int element : arr) {
                 if (element == target) {
                     return true;
@@ -45,7 +29,7 @@ public class LinearSearch {
     }
 
     public static boolean linearSearchForArrayInRange(int[] arr, int target, int start, int end) {
-        if (isNotEmpty(arr)) {
+        if (arr != null) {
             for (int index = start; index < end; index++) {
                 int element = arr[index];
                 if (element == target) {
@@ -58,7 +42,7 @@ public class LinearSearch {
 
     public static int linearSearchMinInArray(int[] arr) {
 
-        if (isNotEmpty(arr)){
+        if (arr != null){
             int minimum = Integer.MAX_VALUE;
             for (int element : arr) {
                 if (element < minimum) {
@@ -72,7 +56,7 @@ public class LinearSearch {
 
     public static boolean linearSearchIn2DArray(int[][] arr, int target) {
 
-        if (isNotEmpty(arr)){
+        if (arr != null){
             for (int[] row : arr) {
                 for (int element : row) {
                     if (element == target) {
