@@ -49,5 +49,11 @@ To organize and version my learning journey, I’ve set up this repository with 
 #### 📅 April 14, 2025
 - **DSA**: Array, Binary Search with some problem solving.
 
+#### 📅 April 15-16, 2025
+- **DSA**: 
+    1. Solved more problem on Binary Search.
+    2. Started GFG160 and solved 2 array problems.
+    3. Bubble sort
+    4. Selection sort
 
 ---
