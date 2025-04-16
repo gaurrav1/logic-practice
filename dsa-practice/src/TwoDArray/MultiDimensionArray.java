@@ -1,15 +1,15 @@
-package array;
+package TwoDArray;
 public class MultiDimensionArray {
     public static void multiDimensionalArray(int rows, int columns) {
 
         int[][] nums = new int[rows][columns];
-        // int[][] nums2 = {
-        //         {1, 2, 3},
-        //         {4, 5, 6},
-        //         {7, 8, 9}
-        // };
+         int[][] nums2 = {
+                 {1, 2, 3},
+                 {4, 5, 6},
+                 {7, 8, 9}
+         };
 
-        // Jagged array
+//       > Jagged array
         int[][] nums3 = new int[rows][];
         nums3[0] = new int[4];
         nums3[1] = new int[5];
