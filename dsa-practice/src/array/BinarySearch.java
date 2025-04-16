@@ -33,13 +33,30 @@ public class BinarySearch {
             }
 
         }
-        return Integer.MIN_VALUE;
+        return -1;
     }
 
 
     public static int orderAgnosticBinarySearch(int[] arr, int target) {
         boolean isAscending = isAscending(arr);
         return binarySearch(arr, target, isAscending);
+    }
+
+    public static int binarySearchInRange(int[] arr, int target, int start, int end, boolean ascending) {
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+
+            if (arr[mid] == target) return mid;
+
+            if (ascending) {
+                if (arr[mid] < target) start = mid + 1;
+                else end = mid - 1;
+            } else {
+                if (arr[mid] > target) start = mid + 1;
+                else end = mid - 1;
+            }
+        }
+        return -1;
     }
 
     public static void main(String[] args) {
