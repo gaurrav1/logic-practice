@@ -1,18 +1,18 @@
 # DSA | Logic Building | Problem Solving
 
-## 📅 Daily Java Practice Repository
+##  Daily Java Practice Repository
 **Started on: April 12, 2025**
 
 ---
 
-### 🚀 Overview
+###  Overview
 
 This repository is dedicated to my daily practice in four core areas of Java & Problem Solving:
 
-- ✅ **Java Collection Framework**
-- ✅ **Java Concurrency**
-- ✅ **Data Structures & Algorithms (DSA)**
-- ✅ **Logic Building / Problem-Solving**
+-  **Java Collection Framework**
+-  **Java Concurrency**
+-  **Data Structures & Algorithms (DSA)**
+-  **Logic Building / Problem-Solving**
 
 To organize and version my learning journey, I’ve set up this repository with a **branch-per-topic** structure:
 
@@ -24,7 +24,7 @@ To organize and version my learning journey, I’ve set up this repository with 
 
 ---
 
-### 📌 Workflow
+###  Workflow
 
 1. Every day, I work on the respective topic branches (`collection`, `concurrency`, `dsa`, `logic`).
 2. After completing the day's practice:
@@ -42,18 +42,23 @@ To organize and version my learning journey, I’ve set up this repository with 
 
 > I maintain a log here to track what I’ve learned, implemented, or improved every day.
 
-#### 📅 April 12, 2025
+#### > 12th April, 2025
 - **Git & Github**: Revised how git is used for branching, rebase, stash.
 - **Core Java**: Revised Core Java.
 
-#### 📅 April 14, 2025
+#### > 14th April, 2025
 - **DSA**: Array, Binary Search with some problem solving.
 
-#### 📅 April 15-16, 2025
+#### > 15-16th April, 2025
 - **DSA**: 
     1. Solved more problem on Binary Search.
     2. Started GFG160 and solved 2 array problems.
     3. Bubble sort
     4. Selection sort
+    
+#### > 17th April, 2025
+- **DSA**: 
+    1. Solved more problem on Binary Search with 2D matrix.
+    2. Insertion sort
 
 ---
