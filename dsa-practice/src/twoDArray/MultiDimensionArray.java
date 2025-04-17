@@ -1,4 +1,4 @@
-package TwoDArray;
+package twoDArray;
 public class MultiDimensionArray {
     public static void multiDimensionalArray(int rows, int columns) {
 
