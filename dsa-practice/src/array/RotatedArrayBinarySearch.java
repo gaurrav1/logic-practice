@@ -1,5 +1,10 @@
 package array;
 
+/**
+ * Question 1: Search in sorted rotated array(Elements are not duplicates).
+ * Question 2: Search in sorted rotated array(Elements are  duplicates).
+ * Question 3: Find how many times sorted array is rotated.
+ */
 public class RotatedArrayBinarySearch {
 
     public static int searchForPivot(int[] arr) {
@@ -57,6 +62,10 @@ public class RotatedArrayBinarySearch {
         return -1; // No pivot means array is not rotated
     }
 
+    public static int rotationCount(int[] arr) {
+        return searchForPivotWithDuplicates(arr)+1;
+    }
+
     public static int searchInRotatedArray(int[] arr, int target) {
         int pivot = searchForPivot(arr);
 
@@ -76,6 +85,7 @@ public class RotatedArrayBinarySearch {
 
     public static void main(String[] args) {
         int[] arr = {-5, 10, 34, 56, 65, 1094, -456, -321, -101, -50, -10};
+        System.out.println(rotationCount(arr));
         System.out.println(searchInRotatedArray(arr, -321));
     }
 }
