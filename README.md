@@ -64,4 +64,7 @@ To organize and version my learning journey, I’ve set up this repository with 
 #### > 18-19th April, 2025
 - **Break**
 
+#### > 20th April, 2025
+- **Worked on my multitenant project(yeah solved the bug i was facing from last 4 months), will continue my DSA journey from tommorow**
+
 ---
