@@ -1,6 +1,6 @@
-package array;
+package array.questions;
 
-import java.util.Arrays;
+import array.BinarySearch;
 
 /** Question 1: Find peak index in mountain array.
  *  Question 2: Find target element in mountain array.

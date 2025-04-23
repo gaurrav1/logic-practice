@@ -1,4 +1,4 @@
-package array;
+package array.questions;
 
 //Question:  Search the element in infinite array.(Assume you dont know the length of the array)
 public class InfiniteArraySearch {
