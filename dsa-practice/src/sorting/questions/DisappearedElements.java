@@ -1,4 +1,6 @@
-package sorting;
+package sorting.questions;
+
+import sorting.CyclicSort;
 
 import java.util.ArrayList;
 import java.util.List;

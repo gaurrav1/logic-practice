@@ -1,4 +1,6 @@
-package array;
+package array.questions;
+
+import array.BinarySearch;
 
 /**
  * Question 1: Search in sorted rotated array(Elements are not duplicates).

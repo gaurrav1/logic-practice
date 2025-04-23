@@ -1,4 +1,4 @@
-package array;
+package array.questions;
 
 // Problem: https://leetcode.com/problems/find-numbers-with-even-number-of-digits/description/?envType=problem-list-v2&envId=array
 // Given an array nums of integers, return how many of them contain an even number of digits.

@@ -1,4 +1,4 @@
-package array;
+package array.questions;
 
 /**
  * Problem: Ceiling of the target number in given sorted array.
