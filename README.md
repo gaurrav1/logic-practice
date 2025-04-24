@@ -74,5 +74,9 @@ To organize and version my learning journey, I’ve set up this repository with 
 - **DSA**: 
     1. Cyclic sort + 1 easy + 2 medium + 1 hard problem solved on leetcode
     2. Strings and StringBuilder
+    
+#### > 24th April, 2025
+- **Collection**: ArrayList, Comparator & Comparable
+- **Logic**: 9 patterns problem solved
 
 ---
