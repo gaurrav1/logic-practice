@@ -79,4 +79,8 @@ To organize and version my learning journey, I’ve set up this repository with 
 - **Collection**: ArrayList, Comparator & Comparable
 - **Logic**: 9 patterns problem solved
 
+#### > 25th April, 2025
+- **DSA**: Recursion (Theory) + Fibonacci + Binary Search with Recursion
+- **Space & Time Complexity**
+
 ---
